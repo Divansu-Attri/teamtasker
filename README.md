@@ -104,7 +104,7 @@ teamtasker/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your_repo_url>
+git clone "https://github.com/Divansu-Attri/teamtasker.git"
 cd teamtasker
 
 2️⃣ Backend Setup
