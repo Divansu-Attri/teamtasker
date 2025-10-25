@@ -111,15 +111,14 @@ cd teamtasker
 cd teamtasker-backend
 npm install
 
-3️⃣ Set up environment variables:
+3️⃣ Set up environment variables
 PORT=4000
 DATABASE_URL="postgresql://postgres:Anjali@1234@localhost:5432/teamtasker?schema=public"
 MONGO_URI="mongodb+srv://Attri:Divansu1234@clu-ster.cddjgd6.mongodb.net/teamtasker?retryWrites=true&w=majority&appName=clu-"
 JWT_SECRET="supersecret"
 JWT_EXPIRES_IN="1h"
 
-4️⃣ Initialize and Seed the Database
-npx prisma migrate dev
+4️⃣ Run Backend
 npm run seed
 
 5️⃣ Start the Backend Server
